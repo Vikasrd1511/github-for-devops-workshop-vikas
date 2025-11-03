@@ -1,0 +1,17 @@
+
+git init >> initialize the empty git repository
+git status >> show file in staging area or not >> track and untrack file 
+git add (filename) >> when we add file then file goes into the staging area.
+git commit -m (message) >> this will commit the files which is in the staging area.
+git rm –cached (filename) >> staging area se fir untrack file me latah ai file ko 
+git restore (filename) >> restore the deleted files 
+
+git remote add origin (https://github.com/Vikasrd1511/github-for-dev...) url is your github repo URL >> we here add remote repo on local repo staging area me jayega 
+git remote -v >> we check that remote repo added or not
+git push origin master >> this will push code to remote repo.
+git branch -M main >> we here change branch to main abhi jo bhi branch thi vo change ho kar main branch ho gayi
+PAT >> personal access token banana hai 
+Use apane repo ka access dena hai >> token classic wala banavo
+
+git remote set-url origin https://PAT@github.com/ Vikasrd1511/github-for-devops-workshop-vikas.git      >> yaha ek change karo jo bhi repo hogi uska naam dalana hai
+
